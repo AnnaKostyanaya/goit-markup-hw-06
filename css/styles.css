@@ -272,7 +272,7 @@ a:focus .icon-tel {
     min-height: 581px;
     background-color: var(--main-backgroundcolor);
     border-radius: 4px;
-    transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(-50%, -50%) scale(1);
 }
 
@@ -563,6 +563,7 @@ a:focus .team-icon {
 
 .client-icon {
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a:hover .client-icon,
