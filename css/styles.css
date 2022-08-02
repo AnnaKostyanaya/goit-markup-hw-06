@@ -296,6 +296,43 @@ a:focus .icon-tel {
     text-decoration: none;
 }
 
+.form {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form p {
+    padding-top: 40px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: inherit;
+    font-family: 700;
+    font-size: 20px; 
+    line-height: 1.17;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--grey-fontcolor);
+}
+
+.form-input {
+    width: 448px;
+}
+
+.form-checkbox {
+    margin-bottom: 30px;
+}
 
 /*Section*/
 
@@ -681,9 +718,36 @@ address {
     background-color: var(--accent-color);
 }
 
+.join-form {
+    margin-left: 93px;
+}
+
+.join-form-email {
+    display: flex;
+}
+
+.email-form input {
+    min-width: 358px;
+    min-height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.15);
+    background-color: var(--accent-background);
+    
+}
+
+.email-form label {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
 
 /* Button */
-.button {
+.button,
+.joun-btn,
+.form-btn {
     color: var(--white-fontcolor);
     background-color: var(--accent-color);
     font-family: inherit;
@@ -703,9 +767,26 @@ address {
 }
 
 .button:hover,
-.button:focus {
+.joun-btn:hover,
+.form-btn:hover,
+.button:focus
+.joun-btn:focus,
+.form-btn:focus {
     color: var(--white-fontcolor);
     background-color: var(--accent-color-hover);
+}
+
+.joun-btn {
+    display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    margin-left: 12px;
+    padding: 10px 28px;
+}
+
+.iconsend {
+    margin-left: 10px;
 }
 
 /* Portfolio */
