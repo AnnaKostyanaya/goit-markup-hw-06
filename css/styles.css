@@ -423,7 +423,7 @@ button:focus .icon-close {
 
 .checkbox:checked + .form-label::before {
     background-color: var(--accent-color);
-    background-image: url(/images/iconcheck.svg);
+    background-image: url(../images/iconcheck.svg);
     background-size: contain;
     background-position: center;
     background-origin: border-box;
@@ -858,9 +858,6 @@ address {
     transform: translateX(-70px) translateY(-50%);
     box-shadow: rgba(0, 0, 0, 0.15);
 }
-
-/* ,
-.email-input:not(placeholder-shown)+.email-label */
 
 /* Button */
 .button,
