@@ -275,7 +275,7 @@ a:focus .icon-tel {
     top: 50%;
     left: 50%;
     min-width: 528px;
-    min-height: 581px;
+    padding: 40px;
     background-color: var(--main-backgroundcolor);
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 1px 0px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -285,6 +285,7 @@ a:focus .icon-tel {
 
 .modal-button {
     position: absolute;
+    top: 0%;
     left: 93%;
     /* нужно придумать как позиционировать */
     display: flex;
@@ -312,8 +313,6 @@ button:focus .icon-close {
     width: 448px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .form p {
@@ -348,7 +347,7 @@ button:focus .icon-close {
 
 .form-label {
     padding: 0;
-    margin: 0;
+    margin-bottom: 4px;
     font-family: inherit;
     font-size: 12px;
     line-height: 1.17;
@@ -371,7 +370,7 @@ button:focus .icon-close {
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-checkbox {
+.form-checkbox > .form-label {
     margin-bottom: 30px;
     margin-top: 20px;
     font-family: inherit;
@@ -404,7 +403,7 @@ button:focus .icon-close {
     display: flex;
     align-items: center;
     align-content: left;
-    margin-left: 39px;
+    justify-content: center;
 }
 
 .checkbox {
@@ -781,12 +780,14 @@ address {
 }
 
 .block-logo-address {
-    margin-right: 70px;
+margin-left: auto;
+margin-right: auto;
 }
 
-/* .sign-social {
-    padding-top: 12px;
-} ---неправильно*/
+/* .block-logo-address {
+    margin-right: 70px;
+} */
+
 
 .join-us.list {
     display: flex;
@@ -816,7 +817,8 @@ address {
 }
 
 .join-form {
-    margin-left: 93px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .join-form-email {
@@ -839,7 +841,7 @@ address {
     font-size: 16px;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
-    padding-left: 16px;
+    padding-left: 70px;
 }
 
 .email-label {
@@ -854,11 +856,11 @@ address {
     
 }
 
-.email-input:focus + .email-label,
+/* .email-input:focus + .email-label,
 .email-input:not(:placeholder-shown) + .email-label{
     transform: translateX(-70px) translateY(-50%);
     box-shadow: rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* Button */
 .button,
