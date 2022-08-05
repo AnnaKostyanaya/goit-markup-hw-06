@@ -780,13 +780,8 @@ address {
 }
 
 .block-logo-address {
-margin-left: auto;
 margin-right: auto;
 }
-
-/* .block-logo-address {
-    margin-right: 70px;
-} */
 
 
 .join-us.list {
@@ -816,9 +811,12 @@ margin-right: auto;
     background-color: var(--accent-color);
 }
 
+.sign-social {
+    margin-left: 70px;
+}
+
 .join-form {
     margin-left: auto;
-    margin-right: auto;
 }
 
 .join-form-email {
